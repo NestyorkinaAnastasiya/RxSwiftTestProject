@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PostPreviewTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="82" id="Y17-WE-K8i" customClass="PostPreviewTableViewCell" customModule="RxSwiftTestProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="82"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y17-WE-K8i" id="xmD-nJ-aIC">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATt-5R-Irz" userLabel="title">
+                        <rect key="frame" x="10" y="10" width="394" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="xPo-an-EXS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jrs-0J-KoN" userLabel="body">
+                        <rect key="frame" x="10" y="43" width="394" height="39"/>
+                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ATt-5R-Irz" firstAttribute="leading" secondItem="xmD-nJ-aIC" secondAttribute="leading" constant="10" id="NaB-k0-yFd"/>
+                    <constraint firstAttribute="bottom" secondItem="Jrs-0J-KoN" secondAttribute="bottom" id="Noe-Fj-t7x"/>
+                    <constraint firstItem="Jrs-0J-KoN" firstAttribute="top" secondItem="ATt-5R-Irz" secondAttribute="bottom" constant="10" id="Xua-aO-2Jg"/>
+                    <constraint firstItem="Jrs-0J-KoN" firstAttribute="leading" secondItem="ATt-5R-Irz" secondAttribute="leading" id="bxa-3r-SRB"/>
+                    <constraint firstAttribute="trailing" secondItem="Jrs-0J-KoN" secondAttribute="trailing" constant="10" id="dki-XC-anC"/>
+                    <constraint firstItem="ATt-5R-Irz" firstAttribute="top" secondItem="xmD-nJ-aIC" secondAttribute="top" constant="10" id="eIl-9B-DAr"/>
+                    <constraint firstAttribute="trailing" secondItem="ATt-5R-Irz" secondAttribute="trailing" constant="10" id="vh7-F8-vgs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration" identifier="PostPreviewTableViewCell"/>
+            <connections>
+                <outlet property="postPreviewLabel" destination="Jrs-0J-KoN" id="Df0-J7-KFK"/>
+                <outlet property="titleLabel" destination="ATt-5R-Irz" id="mqi-Nw-prY"/>
+            </connections>
+            <point key="canvasLocation" x="-86.956521739130437" y="4.0178571428571423"/>
+        </tableViewCell>
+    </objects>
+</document>
