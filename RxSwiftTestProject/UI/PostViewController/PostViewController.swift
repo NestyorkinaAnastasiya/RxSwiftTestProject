@@ -41,6 +41,7 @@ class PostViewController: UIViewController, AutoLoadable {
         viewModel.commentsSequence.bind(to: tableView
                                             .rx.items(cellIdentifier: CommentTableViewCell.reusedId)) { row, comment, cell in
             (cell as! CommentTableViewCell).setupCell(title: comment.name, email: comment.email, comment: comment.body)
+            cell.selectionStyle = .none
         }.disposed(by: disposeBag)
     }
 }

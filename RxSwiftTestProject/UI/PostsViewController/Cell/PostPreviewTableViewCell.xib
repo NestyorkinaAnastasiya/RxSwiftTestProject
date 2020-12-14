@@ -23,9 +23,11 @@
                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <size key="shadowOffset" width="1" height="-1"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jrs-0J-KoN" userLabel="body">
-                        <rect key="frame" x="10" y="43" width="394" height="39"/>
+                        <rect key="frame" x="10" y="38" width="394" height="34"/>
                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -33,8 +35,8 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="ATt-5R-Irz" firstAttribute="leading" secondItem="xmD-nJ-aIC" secondAttribute="leading" constant="10" id="NaB-k0-yFd"/>
-                    <constraint firstAttribute="bottom" secondItem="Jrs-0J-KoN" secondAttribute="bottom" id="Noe-Fj-t7x"/>
-                    <constraint firstItem="Jrs-0J-KoN" firstAttribute="top" secondItem="ATt-5R-Irz" secondAttribute="bottom" constant="10" id="Xua-aO-2Jg"/>
+                    <constraint firstAttribute="bottom" secondItem="Jrs-0J-KoN" secondAttribute="bottom" constant="10" id="Noe-Fj-t7x"/>
+                    <constraint firstItem="Jrs-0J-KoN" firstAttribute="top" secondItem="ATt-5R-Irz" secondAttribute="bottom" constant="5" id="Xua-aO-2Jg"/>
                     <constraint firstItem="Jrs-0J-KoN" firstAttribute="leading" secondItem="ATt-5R-Irz" secondAttribute="leading" id="bxa-3r-SRB"/>
                     <constraint firstAttribute="trailing" secondItem="Jrs-0J-KoN" secondAttribute="trailing" constant="10" id="dki-XC-anC"/>
                     <constraint firstItem="ATt-5R-Irz" firstAttribute="top" secondItem="xmD-nJ-aIC" secondAttribute="top" constant="10" id="eIl-9B-DAr"/>

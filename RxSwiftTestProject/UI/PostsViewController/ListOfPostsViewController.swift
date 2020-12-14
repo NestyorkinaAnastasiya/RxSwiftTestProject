@@ -29,6 +29,7 @@ class ListOfPostsViewController: UIViewController, AutoLoadable {
                 .setupCell(title: post.title,
                            postPreview: post.body,
                            author: nil)
+            cell.selectionStyle = .none
         }.disposed(by: disposeBag)
         
         tableView.rx.modelSelected(Post.self).subscribe(onNext: { [weak self] element in
