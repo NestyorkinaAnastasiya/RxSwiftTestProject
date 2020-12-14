@@ -129,6 +129,7 @@
                         <viewLayoutGuide key="safeArea" id="Y68-20-TCo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="eVT-Cw-7ak" firstAttribute="height" secondItem="Seh-ND-pnL" secondAttribute="height" multiplier="0.558036" id="KYN-5Q-9EL"/>
                             <constraint firstItem="Y68-20-TCo" firstAttribute="bottom" secondItem="nXR-Ga-ic1" secondAttribute="bottom" id="QrY-nP-Fkt"/>
                             <constraint firstItem="Y68-20-TCo" firstAttribute="trailing" secondItem="nXR-Ga-ic1" secondAttribute="trailing" id="Wjv-Ki-l9j"/>
                             <constraint firstItem="nXR-Ga-ic1" firstAttribute="leading" secondItem="Y68-20-TCo" secondAttribute="leading" id="gcy-wy-Jzd"/>
